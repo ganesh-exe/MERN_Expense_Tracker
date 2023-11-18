@@ -18,7 +18,7 @@ function App() {
     return json;
   }
   function addTransaction(ev) {
-    ev.preventDefault();
+    // ev.preventDefault();
     const url = process.env.REACT_APP_API_URL + "/transaction";
     const price = name.split(" ")[0];
     console.log(url);
